@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse"><stop stop-color="#0a0e1a"/><stop offset="1" stop-color="#141b35"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse"><stop stop-color="#6366f1"/><stop offset=".55" stop-color="#7c3aed"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 120) rotate(90) scale(420)"><stop stop-color="#4f46e5" stop-opacity=".55"/><stop offset="1" stop-color="#4f46e5" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".05" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(110 150)">
+    <rect width="92" height="92" rx="22" fill="url(#brand)"/>
+    <path d="M60 32c-3-3.4-7.4-5.5-12.9-5.5-7.8 0-13.3 4.1-13.3 10.3 0 13.1 27.3 6.9 27.3 20.4 0 6.4-6 11.3-14.5 11.3-6.2 0-11.3-2.3-14.3-6.4" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+  <text x="228" y="218" font-family="'Segoe UI',Arial,sans-serif" font-size="74" font-weight="800" fill="#ffffff" letter-spacing="-2">SAMOC</text>
+  <text x="230" y="258" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="600" fill="#a5b4fc" letter-spacing="6">CÔNG NGHỆ · DỊCH VỤ SỐ</text>
+  <text x="112" y="350" font-family="'Segoe UI',Arial,sans-serif" font-size="52" font-weight="800" fill="#ffffff">Công ty TNHH Công nghệ - Dịch vụ số</text>
+  <text x="112" y="430" font-family="'Segoe UI',Arial,sans-serif" font-size="30" font-weight="500" fill="#aeb6cf">Phần mềm · AI · Xây dựng · Truyền thông · Giáo dục · Tư vấn</text>
+  <g transform="translate(112 480)" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="600">
+    <rect width="220" height="48" rx="24" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".14"/>
+    <text x="28" y="31" fill="#c4cce0">6 khối ngành</text>
+    <rect x="244" width="240" height="48" rx="24" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".14"/>
+    <text x="272" y="31" fill="#c4cce0">27 ngành nghề</text>
+    <rect x="508" width="250" height="48" rx="24" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".14"/>
+    <text x="536" y="31" fill="#c4cce0">Trong nước &amp; quốc tế</text>
+  </g>
+</svg>

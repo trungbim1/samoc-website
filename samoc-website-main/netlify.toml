@@ -1,0 +1,19 @@
+# Cấu hình deploy cho Netlify — website tĩnh, không cần build
+[build]
+  publish = "."
+
+# Tự chuyển hướng www.samoc.com → samoc.com (đổi tên miền nếu khác)
+[[redirects]]
+  from = "https://www.samoc.com/*"
+  to = "https://samoc.com/:splat"
+  status = 301
+  force = true
+
+# Header bảo mật cơ bản cho mọi trang
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
